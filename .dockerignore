@@ -1,0 +1,8 @@
+.env
+venv
+*.py[cod]
+__pycache__
+data.csv
+LanguageDetector.ipynb
+.ipynb_checkpoints
+
