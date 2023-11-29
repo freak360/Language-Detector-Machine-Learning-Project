@@ -4,6 +4,10 @@ from nltk.stem import WordNetLemmatizer
 from string import punctuation
 import streamlit as st
 import pickle
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
